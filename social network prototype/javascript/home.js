@@ -160,7 +160,7 @@ function mypost()
 	div2.className="username";
 	var para=document.createElement("p");
 	para.className="name";
-	var text1=document.createTextNode("Rajkumar Rocktim Narayan Singha");
+	var text1=document.createTextNode("Destiny Johnson");
 	para.appendChild(text1);
 	div2.appendChild(para);
 	div.appendChild(div2);
@@ -262,7 +262,7 @@ function increase(likerec,dislikerec,thumbsuprec,thumbsdownrec)
 	var like=document.getElementById(idname1);
 	like.innerHTML=parseInt(like.innerHTML)+1;
 	var up=document.getElementById(thumbsup);
-	up.style.color= "#009688";
+	up.style.color= "#3AAFA9";
 	up.style.pointerEvents="none";
 	var down=document.getElementById(thumbsdown)
 	if(down.style.color=="rgb(0, 150, 136)")
@@ -284,7 +284,7 @@ function decrease(likerec,dislikerec,thumbsuprec,thumbsdownrec)
 	var dislike=document.getElementById(idname2);
 	dislike.innerHTML=parseInt(dislike.innerHTML)+1;
 	var down=document.getElementById(thumbsdown);
-	down.style.color= "#009688";
+	down.style.color= "#3AAFA9";
 	down.style.pointerEvents="none";
 	var up=document.getElementById(thumbsup);
 	if(up.style.color=="rgb(0, 150, 136)")
@@ -307,7 +307,7 @@ function decrease(likerec,dislikerec,thumbsuprec,thumbsdownrec)
  function onbuttoncolor()
  {
  	var on=document.getElementById("imgbttn");
- 	on.style.backgroundColor = "#009688";
+ 	on.style.backgroundColor = "#3AAFA9";
  	on.style.color="white";
  }
 

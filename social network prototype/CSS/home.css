@@ -8,7 +8,7 @@
 	/*height: 240px;*/
 }
 
-/*to post an content section*/
+/*to post a content section*/
 .main
 {
 	/*width: 558px;*/
@@ -162,7 +162,7 @@
 /*post button hover effect*/
 .main .postbar .postmypost:hover
 {
-	background-color: #009688;
+	background-color: #3AAFA9;
 	color: white;
 }
 
@@ -209,7 +209,7 @@
 /*common class for like and dislike button*/
 .likedisbttn .fa
 {
-	/*color: #009688;*/
+	/*color: #3AAFA9;*/
 	font-size: 18px;
 	margin-right: 10px;
 }

@@ -42,7 +42,7 @@ body
 {
 	width: 100%;
 	height: 50px;
-	background-color: #009688;
+	background-color: #3aafa9;
 	position: fixed;
 	z-index: 9999;
 }
@@ -362,11 +362,11 @@ body
 
 #logout
 {
-	color: #009688;
+	color: #3AAFA9;
 	margin: 2px;
 	margin-top: 18px;
 	text-align: center;
-	background-color: #009688;
+	background-color: #3AAFA9;
 }
 
 #logout a
@@ -484,7 +484,7 @@ body
 /*hover effect on connect button*/
 .rightcontent a:hover
 {
-	background-color: #009688;
+	background-color: #3AAFA9;
 	width: 70px;
 	height: 21px;
 	border: none;
@@ -537,7 +537,7 @@ body
 /*hover effect on link below suggestion*/
 .foot ul li a:hover
 {
-	color: #009688;
+	color: #3AAFA9;
 	font-size: 14px;
 }
 
@@ -551,7 +551,7 @@ body
 	padding-bottom: 1%;
 }
 
-/*homaj logo below suggestion*/
+/* logo below suggestion*/
 .foot img
 {
 	width: 50px;
