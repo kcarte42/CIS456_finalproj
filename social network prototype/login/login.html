@@ -10,15 +10,64 @@
 <body>
   <div class="main">
     <p class="sign" align="center">Sign in</p>
-    <form class="form1">
-      <input class="un " type="text" align="center" placeholder="Username">
-      <input class="pass" type="password" align="center" placeholder="Password">
-      <a class="submit" align="center" href="home.html">Sign in</a>
-      <p class="forgot" align="center"><a href="#">Forgot Password?</p>
+    <form id="form1">
+      <input id="username" class="un" name="username" type="text" align="center" placeholder="Username">
+      <input id= "password" class="pass" name="password" type="password" align="center" placeholder="Password">
+      <input type="submit" class="submit" value="Sign in" id= "button">
+
 
 
     </div>
 
 </body>
+<script>
 
+var loginForm = document.getElementById("form1");
+
+var createAccount = document.getElementById('login-form-create-account');
+
+var loginButton = document.getElementById("button");
+
+var user_data = {"test":"test", "user":"password", "using":"passing","other":"others"};
+
+var loginUser;
+
+
+
+loginButton.addEventListener("click", (e) => {
+
+
+   e.preventDefault();
+
+   var username = loginForm.username.value;
+
+
+   const password = loginForm.password.value;
+
+
+   console.log(username);
+
+
+   console.log(password);
+
+
+   if (username in user_data && user_data[username] == password) {
+
+        alert("Youve signed in successfully")
+
+        window.open("home.html")
+
+   } else {
+
+        alert("Wrong Password")
+
+   }
+
+   }
+
+)
+
+
+
+</script>
 </html>
