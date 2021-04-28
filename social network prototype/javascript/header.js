@@ -31,6 +31,11 @@ function headerchange(check)
 		var text=document.getElementById('p6').style.color="white";
 		var img=document.getElementById('homaj-articles').src="../images/login/articles-hover.png";
 	}
+	else if(check==7)
+	{
+		var text=document.getElementById('p7').style.color="white";
+		var img=document.getElementById('resources').src="../images/login/resources-hover.png";
+	}
 }
 
 
@@ -66,6 +71,11 @@ function headerorigin(check)
 	{
 		var text=document.getElementById('p6').style.color="black";
 		var img=document.getElementById('homaj-articles').src="../images/login/articles.png";
+	}
+	else if(check==7)
+	{
+		var text=document.getElementById('p7').style.color="black";
+		var img=document.getElementById('resources').src="../images/login/resources.png";
 	}
 }
 
