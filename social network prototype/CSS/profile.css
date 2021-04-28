@@ -5,6 +5,13 @@
 	background-color: #F3F3F3;
 	float:left;
 }
+.rightfixedprofile
+{
+	width: 790px;
+	height: 900px;
+	background-color: #F3F3F3;
+	float:right;
+}
 
 .bubble
 {
