@@ -1,10 +1,11 @@
+
 function newpost()
 {
     var loader=document.getElementById("viewmore");
 	loader.className="loader";
 	loader.innerHTML="";
 
-	// load new articles after 3 sec
+	// load new articles after 60 sec
 	setTimeout(function()
 	{  
 
@@ -33,7 +34,7 @@ function newpost()
 		div2.className="username";
 		var para=document.createElement("p");
 		para.className="name";
-		var text1=document.createTextNode("User Name");
+		var text1=document.createTextNode("UserName");
 		para.appendChild(text1);
 		div2.appendChild(para);
 		div.appendChild(div2);
@@ -41,14 +42,14 @@ function newpost()
 		/*---------- paragraph time ---------------*/
 		var para1=document.createElement("p");
 		para1.className="time";
-		var text2=document.createTextNode("2hr ago");
+		var text2=document.createTextNode("3 hrs ago");
 		para1.appendChild(text2);
 		div.appendChild(para1);
 
 		/*---------- paragraph quotes ---------------*/
 		var para2=document.createElement("p");
 		para2.className="quotes";
-		var text3=document.createTextNode("I want a world where everything is welcome, everything is valid, everything is acknowledged, embraced, and accepted. To me, that's a perfect world.");
+		var text3=document.createTextNode("New Technology Article Available");
 		para2.appendChild(text3);
 		div.appendChild(para2);
 
@@ -57,7 +58,7 @@ function newpost()
 		div3.className="post";
 		var img1=document.createElement("img");
 		img1.className="postimg";
-		// img1.src="../images/login/society.jpg";
+		// img1.src="../images/login/articles-default.png";
 		div3.appendChild(img1);
 		div.appendChild(div3);
 
@@ -120,13 +121,13 @@ function newpost()
 	}
 
 	},3000);
-	// end of load a new post after 3 sec
+	// end of load a new post after 60 sec
 		
 }
 
-function mypost()
+function myArticle()
 {
-	/*====Parent DIV (mainpost)========*/
+	/*====Parent DIV (main article)========*/
 	var div=document.createElement("DIV");
 	div.className="mainpost";
 
